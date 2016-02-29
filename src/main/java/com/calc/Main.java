@@ -9,7 +9,7 @@ public class Main {
 		Addition AddObj=new Addition();
 		Substraction SubObj=new Substraction();
 			
-		System.out.println("\nEnter the values for a and b:-");
+		System.out.println("\nEnter the values for a and b:");
 		
 		a=scn.nextInt();
 		b=scn.nextInt();
