@@ -9,6 +9,7 @@ public class Main {
 		Addition AddObj=new Addition();
 		Substraction SubObj=new Substraction();
 		Multiplication Mulobj=new Multiplication();
+		Division Divobj=new Division();
 			
 		System.out.println("\nEnter the values for a and b");
 		
@@ -18,6 +19,7 @@ public class Main {
 		AddObj.add(a,b);
 		SubObj.sub(a,b);
 		Mulobj.mul(a,b);
+		Divobj.div(a,b);
 
 		System.out.println("\nExecution Completed!");
 	}
