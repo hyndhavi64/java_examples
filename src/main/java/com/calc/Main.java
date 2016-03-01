@@ -8,6 +8,7 @@ public class Main {
 		Scanner scn = new Scanner(System.in);	
 		Addition AddObj=new Addition();
 		Substraction SubObj=new Substraction();
+		multiplication mulobj=new Multiplication();
 			
 		System.out.println("\nEnter the values for a and b");
 		
@@ -16,7 +17,8 @@ public class Main {
 		
 		AddObj.add(a,b);
 		SubObj.sub(a,b);
-		
+		Mulobj.mul(a,b);
+
 		System.out.println("\nExecution Completed!");
 	}
 }
